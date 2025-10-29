@@ -1,7 +1,7 @@
 // 快速响应部队 - UI抽屉创建
 // 由Cline移植并重构
 
-import { extensionName } from '../utils/settings.js';
+import { extensionName } from '../../utils/settings.js';
 import { initializeBindings, saveAllSettings } from './bindings.js';
 
 const extensionFolderPath = `scripts/extensions/third-party/${extensionName}`;
